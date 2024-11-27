@@ -1,0 +1,288 @@
+/*universal code*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  .header-title {
+    text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  margin:  0 50px 0 ;
+  padding: 100px 0 0;
+}
+/*share font*/
+.font {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #272727;
+}
+.bg-color{
+  background-color:#FFD4CF ;
+}
+/*header-section-start*/
+nav{display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h2 a{font-size: 45px;
+  color: #E55473;
+text-decoration: none;
+}
+nav ul{
+list-style: none;
+display: flex;
+}
+nav ul li{margin-right: 20px;
+  padding: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: whitesmoke;
+  background-color: #E55473;
+}
+/*header-section-end*/
+main{
+  max-width: 1920px;
+}
+/*banner-section-start*/
+.container{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.banner-text{
+  width: 50%;
+  margin: 100px 100px 0 100px;
+}
+.banner-img{
+  width: 50%; 
+  margin: 30px 40px 0 100px;
+}
+.b-h1{
+font-size: 80px;
+font-weight: 900;
+}
+.b-p{
+  font-size: 20px;
+  margin:20px 0 ;
+}
+.btn-primary{
+font-size: 20px;
+font-weight: bold;
+background-color: #E55473;
+padding: 20px 43px;
+border-radius: 8px;
+border: none;
+color: #ECECEC;
+}
+/*banner-section-end*/
+/*feature-section-start*/
+.feature-content{
+  width: 50%;
+  margin: 0 auto;
+}
+.f-p{
+  text-align: center;
+  padding: 10px;
+  margin:10px ;
+ 
+}
+.feature-img{
+display: flex;
+justify-content: center;
+}
+.first-img img,.second-img img,.third-img img{
+width: 400px;
+height: 400px;
+margin: 20px;
+padding: 20px;
+}
+#first{
+  background-color:#FFE2F1 ;
+  border-radius: 100% 100% 0 0;
+  margin: 10px;
+}
+#second{
+background-color:#e7eee0 ;
+border-radius:100% 100% 0 0 ;
+margin: 10px;
+}
+#third{  
+  background-color:#e3fdc3 ;
+  border-radius:100% 100% 0 0;
+  margin:10px ;
+}
+/*feature-section-end*/
+/*service section start*/
+.tree{
+  display: flex;
+  justify-content: space-evenly;
+  font-size:24px ;
+  font-weight: bold;
+  margin-top: 2px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+.Group{
+  display: flex;
+  width: 70%; 
+  justify-content: space-around;
+  margin: 2rem auto;
+  background-color:#ECECEC ;
+  margin-top: 150px ;
+  margin-bottom: 150px;
+ border-radius: 8px;
+ height: 250px;
+ text-align: center;
+ height: 300px;
+ padding: 100px;
+}
+.delivery{
+  font-size: 1rem;
+  padding: 1rem; 
+}
+.fresh{
+  font-size: 1rem;
+  padding: 1rem; 
+}
+.free{
+  font-size: 1rem;
+  padding: 1rem; 
+}
+/*service section end*/
+/*media section start*/
+.media{
+  display: flex;
+  background-color:hsl(26, 53%, 92%);
+  height: 500px;
+}
+.m-div{
+  width: 50%;
+  margin-left: 15rem;
+  padding: 6rem;
+  margin-top: 8rem;
+}
+.deal{
+  width: 45%;
+}
+.m-h2{
+  display: flex;
+}
+.m-p1{
+ 
+  color:#E55473 ;
+  font-weight: bolder;
+}
+.btn-1{
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  margin-left: 8rem;
+  padding: 1rem 2rem;
+  background:#E55473 ;
+  border: none;
+  color: white;
+  border-radius: .8rem;
+}
+.deal{
+  margin-bottom: 4rem;
+  padding: 50px;
+}
+/*media section end*/
+/*instagram-section-start*/
+.instagram-images{
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 50px 50px 20px;
+  padding: 0 0 10px;
+}
+.instagram-content{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin:  0 200px 0 ;
+  padding: 100px 0 0;
+}
+.ins-img{
+  margin: 10px 0 10px ;
+  padding: 10px 0 10px ;
+  display: flex;
+}
+.p-description{
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px;
+}
+/*instagram-section-end*/
+/*deals section start*/
+.deals-h{
+  font-size: 2.3rem;
+}
+
+.deals-con{
+  text-align: center;
+  padding: 150px 100px 150px ;
+  border-radius: 18px;
+  margin-top: 100px 0 0;
+}
+.cont-deals{
+  background-image: url(../flower/img\ 13.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 197px;
+}
+.p-deals{
+  margin: 20px 48px;
+  text-align: center;
+} 
+input{
+width: 400px;
+height: 35px;
+box-shadow: rgba(0,0,0,.1) 0px 4px 12px;
+border: none;
+border-radius: 8px;
+text-align: center;
+}
+.d-btn{
+  width: 100px;
+  height: 35px;
+  background-color: #E55473;
+  color:white ;
+  border: none;
+  border-radius: 10px;
+}
+.last-cont{
+  background-color: #111010; 
+  margin: 15px;
+  padding: 100px;
+  border-radius: 10px;
+}
+.d2-h2{
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 48px;
+  padding: 20px;
+}
+span{
+  color: #E55473;
+}
+.d2-p1{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+.d2-p2{
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  padding: 30px;
+}
+
+/*deals section end*/
