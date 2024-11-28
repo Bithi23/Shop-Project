@@ -1,4 +1,11 @@
-/*universal code*/
+ /*share font*/
+.font {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #272727;
+}
+ /*universal code*/
 *{
   margin: 0;
   padding: 0;
@@ -11,13 +18,7 @@
   margin:  0 50px 0 ;
   padding: 100px 0 0;
 }
-/*share font*/
-.font {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #272727;
-}
+
 .bg-color{
   background-color:#FFD4CF ;
 }
@@ -68,7 +69,8 @@ font-weight: 900;
 }
 .b-p{
   font-size: 20px;
-  margin:20px 0 ;
+  margin: 50px 0 30px;
+  color: #6B6B6B;
 }
 .btn-primary{
 font-size: 20px;
@@ -88,8 +90,8 @@ color: #ECECEC;
 .f-p{
   text-align: center;
   padding: 10px;
-  margin:10px ;
- 
+  margin: 20px 200px 20px;
+  color: #6B6B6B;
 }
 .feature-img{
 display: flex;
@@ -164,7 +166,7 @@ margin: 10px;
 .m-div{
   width: 50%;
   margin-left: 15rem;
-  padding: 6rem;
+  padding: 4rem;
   margin-top: 8rem;
 }
 .deal{
@@ -172,17 +174,26 @@ margin: 10px;
 }
 .m-h2{
   display: flex;
+  font-weight: bold;
+  padding: 20px;
+font-size: 2.3rem;
 }
 .m-p1{
  
   color:#E55473 ;
   font-weight: bolder;
+  font-size: 2.3rem;
+}
+.m-p2{
+  padding: 15px 100px 15px 20px;
+   font-size: 18px;
+color:#6B6B6B ;
 }
 .btn-1{
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 1.3rem;
-  margin-left: 8rem;
-  padding: 1rem 2rem;
+  margin-left: 9rem;
+  padding: 1rem 2.5rem;
   background:#E55473 ;
   border: none;
   color: white;
@@ -194,12 +205,14 @@ margin: 10px;
 }
 /*media section end*/
 /*instagram-section-start*/
-.instagram-images{
+.instagram-img{
   justify-content: space-around;
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  margin: 50px 50px 20px;
+  margin: 20px 200px 20px;
   padding: 0 0 10px;
+  gap: 2px;
+  border-radius: .8rem;
 }
 .instagram-content{
   text-align: center;
@@ -212,11 +225,13 @@ margin: 10px;
   margin: 10px 0 10px ;
   padding: 10px 0 10px ;
   display: flex;
+  border-radius: 100px;
 }
 .p-description{
   font-size: 18px;
-  padding: 5px;
   margin: 10px;
+  padding: 15px 500px 15px 400px;
+  color: #6B6B6B;
 }
 /*instagram-section-end*/
 /*deals section start*/
@@ -239,6 +254,7 @@ margin: 10px;
 .p-deals{
   margin: 20px 48px;
   text-align: center;
+  color: #6B6B6B;
 } 
 input{
 width: 400px;
@@ -246,7 +262,6 @@ height: 35px;
 box-shadow: rgba(0,0,0,.1) 0px 4px 12px;
 border: none;
 border-radius: 8px;
-text-align: center;
 }
 .d-btn{
   width: 100px;
@@ -276,13 +291,13 @@ span{
   color: white;
   text-align: center;
   font-size: 18px;
-  padding: 10px;
+  padding: 15px 600px 15px 500px;
 }
 .d2-p2{
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
   text-align: center;
   font-size: 13px;
   padding: 30px;
+  color: #6B6B6B;
 }
-
 /*deals section end*/
